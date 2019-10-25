@@ -4,11 +4,11 @@ email_address:    # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
-facebook:
+facebook: "sriram.dev.coder"
 flickr:
 gitlab:
 github: "sriram23"
-instagram:
+instagram: "dude_who_code"
 keybase:
 linkedin:         # Full URL
 pinterest:
@@ -18,7 +18,7 @@ stack_overflow:
 stack_exchange:   # Full URL
 steam:
 tumblr:
-twitter:          # "twitter username"
+twitter: "imsriramb"         # "twitter username"
 vimeo:
 wordpress:
 youtube:
