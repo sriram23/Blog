@@ -4,6 +4,7 @@ title: A simple JavaScript Weather Application and JSON parsing
 tags: [JSON, JavaScript, Weather Application]
 excerpt_separator: <!--more-->
 author: sriram
+comments: true
 ---
 
 Hello World!
