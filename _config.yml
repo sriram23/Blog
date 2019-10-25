@@ -5,8 +5,8 @@ url: "https://sriram23.github.io/Blog"
 # THEME-SPECIFIC CONFIGURATION
 title: Sriram                                           # site's title
 description: "Sriram's Blog"			        # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+avatar: assets/img/sriram.png                         # Empty for no avatar in navbar
+favicon: assets/SRicon.ico                              # Icon displayed in the tab
 
 # Header and footer text
 header_text: Sriram's Blog                                    # Change Blog header text
