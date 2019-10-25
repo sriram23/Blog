@@ -77,8 +77,10 @@ We got the weather data. Now it’s time to present it to the user. I’ll brief
 - **Updated on 30-Sep-19:** Upgraded the application in such a way that, user location is fetched from device and weather data is provided to user based on the user latitude and longitude.
 - Forecast weather details and animation given
 
-![Latest Screenshot](../assets/img/Weather_now/pic5.png)
+![Latest Screenshot]({{site.baseurl}}/assets/img/Weather_now/pic5.png)
 
-![Forecast weather data](../assets/img/Weather_now/pic6.gif)
+![Forecast weather data]({{site.baseurl}}/assets/img/Weather_now/pic6.gif)
 
 This is how the application is created. You can try the application <a href="http://sriram23.github.io/Weather-Now">here</a>. Feel free to share your views on this. Looking forward to your valuable responses. I will meet you in the next blog post with the Android version of Weather Now.
+
+/home/sriram/Blog/assets/img/Weather_now
