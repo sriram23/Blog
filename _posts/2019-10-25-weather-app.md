@@ -10,9 +10,9 @@ Hello World!
 
 In this blog, I would like to share my learning and experiences in writing a simple JavaScript weather application. For writing this application I’ve used HTML, CSS, JavaScript languages and frameworks like Bootstrap for responsiveness.
 
-![Site Preview](../assets/img/Weather_now/pic1.gif "A preview of application")
+![Site Preview]({{site.baseurl}}/assets/img/Weather_now/pic1.gif "A preview of application")
 
-![Site Preview Coimbatore](../assets/img/Weather_now/pic2.gif "Logo Title Text 1")
+![Site Preview Coimbatore]({{site.baseurl}}/assets/img/Weather_now/pic2.gif "Logo Title Text 1")
 
 # How do I get weather data?
 
@@ -30,7 +30,7 @@ https://api.openweathermap.org/data/2.5/weather?q=<<cityName>>&units=metric&apik
 
 Just copy-paste the above link and replace cityName with a city name and key with your api key. You will get a JSON response from openweathermap.
 
-![Sample JSON response](../assets/img/Weather_now/pic3.png "A sample JSON response")
+![Sample JSON response]({{site.baseurl}}/assets/img/Weather_now/pic3.png "A sample JSON response")
 
 # What is JSON and how can I make use of it?
 
@@ -43,7 +43,7 @@ So now, we can get some information from the JSON. But before that, we need to k
 
 In the above example, *“coord”* is a JSON object and *“Weather”* is a JSON array.
 
-![Sample JSON response](../assets/img/Weather_now/pic4.png "Weather data of Coimbatore, highlighted temperature")
+![Sample JSON response]({{site.baseurl}}/assets/img/Weather_now/pic4.png "Weather data of Coimbatore, highlighted temperature")
 
 The above screen shot is the JSON weather data of Coimbatore city. If we want to get the current temperature, we will need to find the “temp” in the JSON response. It is inside the “main” json object. So all we need to do is, we need to store the json response in a JavaScript object. From that object, we need to extract the “main” object. From main, we have to extract “temp”. So how to do this programmatically? Let’s see.
 
