@@ -7,7 +7,6 @@ layout: default
   <header id="main" style="">
     {% unless page.hide_title %}
       <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-	<!--Newly Added--><a href="URL#disqus_thread">Comments</a>
       {% include post_info.html author=page.author date=page.date %}
     {% endunless %}
   </header>
