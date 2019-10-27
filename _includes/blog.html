@@ -6,7 +6,7 @@
             <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
                 <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
             </a>
-	    <!--Newly Added--><a href="{{ post.url | relative_url }}#disqus_thread">Comments</a>
+	    <!--Newly Added--><a href="{{ post.url | relative_url }}/#disqus_thread">Comments</a>
         </div>
         {% endif %}
         <span>
