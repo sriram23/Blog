@@ -6,7 +6,6 @@
             <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
                 <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
             </a>
-	    <!--Newly Added--><a href="{{ post.url | relative_url }}/#disqus_thread">Comments</a>
         </div>
         {% endif %}
         <span>
@@ -17,6 +16,7 @@
               </a>
             </h1>
             {% include post_info.html author=post.author date=post.date %}
+	<!--Newly Added--><a href="{{ post.url | relative_url }}/#disqus_thread">Comments</a>
           </header>
           {% if site.excerpt or site.theme_settings.excerpt %}
               <div class="excerpt">
