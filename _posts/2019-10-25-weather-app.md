@@ -5,7 +5,6 @@ tags: [JSON, JavaScript, Weather Application]
 excerpt_separator: <!--more-->
 author: sriram
 comments: true
-premalink: /weatherapp/
 ---
 
 Hello World!
